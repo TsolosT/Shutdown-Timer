@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="224.0" prefWidth="385.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <Button fx:id="btnStart" layoutX="212.0" layoutY="138.0" mnemonicParsing="false" onAction="#StartTimer" prefHeight="31.0" prefWidth="81.0" text="Start Timer" />
+      <Button fx:id="btnClear" layoutX="84.0" layoutY="138.0" mnemonicParsing="false" onAction="#ClearInputs" prefHeight="31.0" prefWidth="81.0" text="Clear" />
+      <Label layoutX="23.0" layoutY="38.0" text="Set in how much time :" />
+      <Label layoutX="71.0" layoutY="95.0" text="Choose type :" />
+      <ChoiceBox fx:id="choiceboxType" layoutX="178.0" layoutY="91.0" prefWidth="150.0" />
+      <TextField fx:id="tbMin" layoutX="253.0" layoutY="34.0" prefHeight="25.0" prefWidth="39.0" promptText="min" />
+      <Button fx:id="btnCancel" layoutX="138.0" layoutY="179.0" mnemonicParsing="false" onAction="#CancelTimer" prefHeight="31.0" prefWidth="90.0" text="Cancel Timer" />
+      <TextField fx:id="tbSec" layoutX="305.0" layoutY="34.0" prefHeight="25.0" prefWidth="39.0" promptText="sec" />
+      <TextField fx:id="tbHour" layoutX="193.0" layoutY="34.0" prefHeight="25.0" prefWidth="39.0" promptText="hour" />
+   </children>
+</AnchorPane>
