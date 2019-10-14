@@ -81,6 +81,7 @@ public class Controller implements Initializable {
 	public void CancelTimer(ActionEvent event) {
 		try {
 			Runtime.getRuntime().exec("shutdown /a");
+			btnCancel.setVisible(false);
 			setActiveInputs();
 			
 		} catch (IOException e) {
